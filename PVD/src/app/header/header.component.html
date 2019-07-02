@@ -1,0 +1,19 @@
+<div id="myTopnav" class="topnav">
+    <a href="javascript:void(0);" class="icon" (click)="displayResponsive()">
+      <i class="fa fa-bars"></i>
+    </a>
+    <!--Enlaces regulares-->
+    <a class="active" href="#" routerLink="/home">Inicio</a> <!-- icono-->
+    <a href="#" routerLink="/acerca-de">Acerca del PAP</a>
+    <a href="#" routerLink="/proyectos">Proyectos</a>
+    <a href="#" routerLink="/periodos">Periodos</a>
+    <a href="#" routerLink="/contacto">Contacto</a>    
+    <!--admin-->
+    <a *ngIf="administrador" href="#" routerLink="/admin">Administración</a>
+    <!--Zona reservada-->
+    <a *ngIf="sesionIniciada" href="#" routerLink="#" (click)="cerrarSesion()" style="float:right">Cerrar Sesión</a>
+    <a *ngIf="sesionIniciada" href="#" routerLink="#" style="float:right">{{usuarioActual}}</a>
+    <a *ngIf="sesionIniciada" href="#" routerLink="/reservada">Zona reservada</a> <!--Estilo que resalte-->
+    <a *ngIf="!sesionIniciada" id="menu_login" href="#" routerLink="/login" style="float: right">Iniciar Sesión</a>
+  </div>
+  
