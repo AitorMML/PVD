@@ -8,7 +8,7 @@ import { stringify } from '@angular/compiler/src/util';
 })
 export class UsuariosService {
   sesionActual: Usuario;
-  tokenSesion: string;
+  tokenSesion = 'placeholder';
 
   constructor(private cliente: HttpClient) { }
 

@@ -17,9 +17,9 @@ const routes: Routes = [
   {path: 'proyectos', component: ProyectosComponent}, // probablemente tenga hijos
   {path: 'periodos', component: PeriodosComponent},   // idem
   {path: 'contacto', component: ContactoComponent},
-  {path: 'login', component: LoginComponent, canActivate: [!AutenticacionService]}, // no sirve si ya inició sesión
-  {path: 'admin', component: AdminComponent, canActivate: [AutenticacionService]},
-  {path: 'reservada', component: ZonareservadaComponent, canActivate: [AutenticacionService]}
+  {path: 'login', component: LoginComponent, /*canActivate: [!AutenticacionService]*/}, // no sirve si ya inició sesión
+  {path: 'admin', component: AdminComponent, /*canActivate: [AutenticacionService]*/},
+  {path: 'reservada', component: ZonareservadaComponent, /*canActivate: [AutenticacionService]*/}
 ];
 
 @NgModule({

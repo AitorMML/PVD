@@ -7,6 +7,7 @@ import { UsuariosService } from '../usuarios.service';
   styleUrls: ['./header.component.css']
 })
 export class HeaderComponent implements OnInit {
+  login = false;
 
   constructor(
     servicioUsuarios: UsuariosService

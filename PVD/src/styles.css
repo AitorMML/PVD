@@ -1,1 +1,82 @@
 /* You can add global styles to this file, and also import other style files */
+.jumbotron {
+    background-color: #FAFAFA;
+}
+/* Video */
+
+#videobg {
+    object-fit: fill;
+    width: 100vw;
+    height: 100vh;
+    position: relative;
+}
+
+.content {
+    position: absolute;
+    bottom: 0;
+    color: #fff;
+    width: 100%;
+    padding: 20px;
+}
+/* Body */
+
+body {
+    background-color: #FAFAFA;
+}
+/* footer  */
+
+footer {
+    font-size: 1.8em;
+    background-color: #037971;
+    padding: 40px;
+    width: 100%;
+    text-align: center;
+}
+
+footer a {
+    color: #fff;
+    padding: 10px;
+}
+
+footer a :hover {
+    color: #194459;
+}
+/* botones */
+
+.btnlogin {
+    float: right;
+    border-color: #037971;
+}
+
+.btncontacto {
+    float: right;
+    border-color: #037971;
+}
+
+.btnmas {
+    border-color: #037971;
+    float: right;
+}
+
+.formlog {
+    font-family: 'Lato', sans-serif;
+}
+/* Textos */
+
+p {
+    text-align: justify;
+    font-family: 'Lato', sans-serif;
+}
+
+h2 {
+    font-family: 'Lato', sans-serif;
+}
+
+h1 {
+    font-family: 'Lato', sans-serif;
+}
+
+h1.bannerproyectos {
+    text-align: center;
+}
+/* color #037971 */
